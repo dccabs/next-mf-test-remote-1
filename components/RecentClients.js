@@ -11,13 +11,13 @@ const statuses = {
 const clients = [
   {
     id: 1,
-    name: "Tuple",
-    imageUrl: "https://tailwindui.com/img/logos/48x48/tuple.svg",
+    name: "Reform",
+    imageUrl: "https://tailwindui.com/img/logos/48x48/reform.svg",
     lastInvoice: {
-      date: "December 13, 2022",
-      dateTime: "2022-12-13",
-      amount: "$2,000.00",
-      status: "Overdue",
+      date: "January 23, 2023",
+      dateTime: "2023-01-23",
+      amount: "$7,600.00",
+      status: "Paid",
     },
   },
   {
@@ -33,13 +33,13 @@ const clients = [
   },
   {
     id: 3,
-    name: "Reform",
-    imageUrl: "https://tailwindui.com/img/logos/48x48/reform.svg",
+    name: "Tuple",
+    imageUrl: "https://tailwindui.com/img/logos/48x48/tuple.svg",
     lastInvoice: {
-      date: "January 23, 2023",
-      dateTime: "2023-01-23",
-      amount: "$7,600.00",
-      status: "Paid",
+      date: "December 13, 2022",
+      dateTime: "2022-12-13",
+      amount: "$2,000.00",
+      status: "Overdue",
     },
   },
 ];
@@ -54,7 +54,7 @@ export default function Example() {
       <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
         <div className="flex items-center justify-between">
           <h2 className="text-base font-semibold leading-7 text-gray-900">
-            Recent clients
+            Recent clients (This lives on another server)
           </h2>
           <a
             href="#"

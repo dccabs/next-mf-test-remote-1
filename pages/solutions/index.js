@@ -12,9 +12,6 @@ export default function Solutions() {
       <Header />
       <main>
         <div className="relative isolate overflow-hidden pt-16">
-          <DynamicComponent scope="home" module="nav">
-            <SecondNav />
-          </DynamicComponent>
           <SecondNav />
           <Stats />
         </div>

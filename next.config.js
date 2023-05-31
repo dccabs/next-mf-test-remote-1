@@ -11,10 +11,10 @@ const nextConfig = {
             new NextFederationPlugin({
                 name: 'app1',
                 filename: 'static/chunks/remoteEntry.js',
-                // exposes: {
-                //     './title': './components/exposedTitle.js',
-                //     './checkout': './pages/checkout',
-                // },
+                exposes: {
+                    './recentClients': './components/recentClients.js',
+                    './checkout': './pages/checkout',
+                },
                 // shared: {
                 //     // whatever else
                 // },
