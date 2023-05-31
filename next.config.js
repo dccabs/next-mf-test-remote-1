@@ -12,9 +12,8 @@ const nextConfig = {
                 name: 'remote1',
                 filename: 'static/chunks/remoteEntry.js',
                 exposes: {
-                    './recentClients': './components/recentClients.js',
+                    './recentClients': './components/RecentClients.js',
                     './recentActivity': './components/RecentActivityTable.js',
-                    './stats': './components/Stats.js',
                     './stats': './components/Stats.js',
                     './secondNav': './components/SecondNav.js',
                     './header': './components/Header.js',
