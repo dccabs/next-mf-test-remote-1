@@ -54,7 +54,7 @@ export default function Example() {
       <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
         <div className="flex items-center justify-between">
           <h2 className="text-base font-semibold leading-7 text-gray-900">
-            Recent clients (This lives on another server)
+            Recent clients (This lives on another remote 1)
           </h2>
           <a
             href="#"

@@ -46,7 +46,7 @@ export default function Stats() {
             )}
           >
             <dt className="text-sm font-medium leading-6 text-gray-500">
-              {stat.name}
+              {stat.name} (remote 1)
             </dt>
             <dd
               className={classNames(

@@ -11,7 +11,7 @@ export default function SecondNav() {
     <header className="pb-4 pt-6 sm:pb-6">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-6 px-4 sm:flex-nowrap sm:px-6 lg:px-8">
         <h1 className="text-base font-semibold leading-7 text-gray-900">
-          Cashflow
+          Cashflow (remote 1)
         </h1>
         <div className="order-last flex w-full gap-x-8 text-sm font-semibold leading-6 sm:order-none sm:w-auto sm:border-l sm:border-gray-200 sm:pl-6 sm:leading-7">
           {secondaryNavigation.map((item) => (

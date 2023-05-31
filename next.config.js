@@ -9,11 +9,15 @@ const nextConfig = {
         const { isServer } = options;
         config.plugins.push(
             new NextFederationPlugin({
-                name: 'app1',
+                name: 'remote1',
                 filename: 'static/chunks/remoteEntry.js',
                 exposes: {
                     './recentClients': './components/recentClients.js',
-                    './checkout': './pages/checkout',
+                    './recentActivity': './components/RecentActivityTable.js',
+                    './stats': './components/Stats.js',
+                    './stats': './components/Stats.js',
+                    './secondNav': './components/SecondNav.js',
+                    './header': './components/Header.js',
                 },
                 // shared: {
                 //     // whatever else
