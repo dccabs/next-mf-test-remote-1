@@ -18,9 +18,23 @@ const nextConfig = {
                     './secondNav': './components/SecondNav.js',
                     './header': './components/Header.js',
                 },
-                // shared: {
-                //     // whatever else
-                // },
+                shared: {
+                    react: {
+                        eager: true,
+                        singleton: true,
+                        requiredVersion: packageJson.dependencies.react
+                    },
+                    "react-dom": {
+                        eager: true,
+                        singleton: true,
+                        requiredVersion: packageJson.dependencies["react-dom"]
+                    },
+                    "react/jsx-dev-runtime": {
+                        eager: true,
+                        singleton: true,
+                        requiredVersion: packageJson.dependencies["react"]
+                    },
+                },
             })
         );
 
