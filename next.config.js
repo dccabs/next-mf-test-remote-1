@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const NextFederationPlugin = require('@module-federation/nextjs-mf');
 const ModuleFederationPlugin = require('webpack').container.ModuleFederationPlugin;
+const packageJson = require('./package.json');
 
 const nextConfig = {
   reactStrictMode: true,
